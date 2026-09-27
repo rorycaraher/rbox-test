@@ -9,3 +9,4 @@ This repo exists to test a headless coding agent. If you are that agent,
 follow the rules in `AGENTS.md`.
 
 <!-- TARGET -->
+rbox was here
