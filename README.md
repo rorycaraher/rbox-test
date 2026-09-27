@@ -9,3 +9,4 @@ This repo exists to test a headless coding agent. If you are that agent,
 follow the rules in `AGENTS.md`.
 
 <!-- TARGET -->
+Added by headless agent PoC run on 2026-09-27.
