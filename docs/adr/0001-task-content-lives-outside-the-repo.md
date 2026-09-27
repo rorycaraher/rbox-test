@@ -1,0 +1,3 @@
+# Task Content lives in the invocation prompt, not in the repo
+
+We considered spelling out the literal line the agent must add (e.g. "rbox was here") directly in `README.md`, so the repo alone would fully define success. We rejected this: it would let the agent pattern-match the expected content straight off the page instead of following the prompt + Target Marker mechanism, which is the actual thing this repo exists to test. Instead, `README.md` only carries the Target Marker (where/how), and the literal Task Content is supplied externally, only in the prompt given to the agent at invocation. Repo-only inspection can no longer fully verify success without knowing the prompt used.
